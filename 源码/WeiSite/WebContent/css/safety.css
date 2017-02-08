@@ -1,0 +1,150 @@
+.margin-top-security{
+	margin-top: 11px;
+}
+
+/** 边框的值**/
+.yy-border-shaow {
+	border: 1px solid #CACACA;
+	box-shadow: 0 3px 3px -4px #ABACAE;
+}
+
+/** 浮动左边字体居中**/
+.yy-font-center-float-left {
+	font-size: 10px;
+	color: #919191;
+	float: left;
+	text-align: center;
+	width: 50%;
+	line-height: 20px;
+}
+/** 浮动右边字体居中**/
+
+.yy-font-center-float-right {
+	font-size: 10px;
+	color: #919191;
+	float: right;
+	text-align: center;
+	width: 50%;
+	line-height: 20px;
+}
+/** 身份证添加框右移动2px 背景颜色**/
+
+.yy-width-bg {
+	left: 2px!important;
+	width: 48%!important;
+	margin-right: 5px;
+	background: #d4d4d5;
+}
+.yy-left-width-bg {
+	left: 2px!important;
+	width: 48%!important;
+	background: #d4d4d5;
+}
+
+/** 边框的值**/
+
+.yy-border-shaow {
+	border: 1px solid #CACACA;
+	box-shadow: 0 3px 3px -4px #ABACAE;
+}
+
+/**宽度100%的值**/
+
+.yy-margin-none {
+	margin: 0;
+}
+.yy-border-line {
+	border-top: 1px solid #CCCCCC;
+	margin: 10px 0;
+}
+.yy-font-color {
+	color: #333;
+}
+.yy-padding-8 {
+	padding: 0 8px!important;
+}
+
+/**ul的背景 无边距**/	
+.yy-bj-ul {
+	padding:0px 10px;
+    background:#fff;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+.IDAuth-wheat-firstline {
+	font-size: 17px;
+	overflow: hidden;
+	margin: 18px 0 12px 0;
+}
+
+.IDAuth-image-item input[type='file'] {
+	width: 100%;
+	height: 100%!important;
+	cursor: pointer;
+	z-index: 10;
+	opacity: 0;
+	line-height: inherit!important;
+}
+input {
+	height: 44px!important;
+	border-radius: 2px!important;
+}
+
+.IDAuth-image-item.wxx-ID4Edit_6 {
+	top: 10px;
+	left: 3%;
+	width: 45.58%;
+	background-image: url(../images/ID-card_1.png);
+	background-size: 100% 100%;
+}
+
+.IDAuth-image-item.space {
+	border: none;
+}
+.IDAuth-image-item.wxx-ID4Edit_7 {
+	top: 10px;
+	left: 5%;
+	width: 45.58%;
+	background-image: url(../images/ID-card_2.png);
+	background-size: 100% 100%;
+}
+.IDAuth-image-item.space {
+	border: none;
+}
+
+.IDAuth-image-item.wxx-ID4Edit_4 {
+	left: 3%;
+	width: 45.58%;
+	background-image: url(../images/CreditcardAdd.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.IDAuth-image-item.space {
+	border: none;
+}
+.yy-width-bg {
+	left: 2px!important;
+	width: 48%!important;
+	margin-right: 5px;
+	background: #d4d4d5;
+}
+.IDAuth-image-item {
+	width: 46.65%;
+	height: 100px;
+	/* background-image: url(../images/iconfont-tianjia.png); */
+	background-color: #C3C3C3;
+	background-size: 175px 100px;
+	border-radius: 4px;
+	display: inline-block;
+	position: relative;
+}
+.add-card {
+	background: #C3C3C3;
+	border-radius: 4px;
+}
+.yy-left-width-bg {
+	left: 2px!important;
+	width: 47.6%!important;
+	background: #d4d4d5;
+}

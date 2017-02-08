@@ -1,0 +1,141 @@
+<header class="mui-bar mui-bar-nav">
+	<a
+		class="mui-action-back mui-icon  icon-duduyinleappicon0501 mui-pull-left  " id="home1back" href="javascript:void(0)"></a>
+
+	<a class="mui-icon icon-daohangliebiao mui-pull-right mui-hidden "></a>
+
+	<h1 class="mui-title">我要办卡</h1>
+</header>
+<div class="mui-content" id="plus_step1">
+	<div class="scroller">
+	  <div class="nowprocess">
+	     <div class="pro-row-table">
+	     <div class="pro-row-table-cell newbox1">
+	     	 <div class="tactful1">
+	     	 <span class="pro-row-table-cell-word">1</span>
+	         </div>
+	         <div class="line1">
+	         </div>
+	         	         <span class="pro-row-table-cell-title">初步审核</span>
+	     </div>	     
+	     <div class="pro-row-table-cell newbox2">
+	     	 <div class="tactful1">
+	     	 	     	 <span class="pro-row-table-cell-word">2</span>
+	         </div>
+	         <div class="line1">
+	         </div>
+	         <span class="pro-row-table-cell-title">基本信息</span>
+	     </div>
+	     	  <div class="pro-row-table-cell newbox3">
+	     	 <div class="tactful2">
+	     	 	     	 <span class="pro-row-table-cell-word">3</span>
+	         </div>
+	         <div class="line2">
+	         </div>
+	         <span class="pro-row-table-cell-title">完善信息</span>
+	     </div> 
+	     <div class="pro-row-table-cell newbox4" style="min-width:64px;">
+	     	 <div class="tactful2">
+	     	 	     	 <span class="pro-row-table-cell-word">4</span>
+	         </div>  
+	         <span class="pro-row-table-cell-title">提交完成</span>
+	     </div>
+	     </div>	
+	     </div>
+	     <form class="mui-form-hf">
+	     <div class="mui-input-row-divider"></div>
+		<div class="mui-input-row">
+		<label>住宅地址<span class="mui-input-danger">*</span></label>
+		            <input id="faAddress" type="text" readonly="" placeholder="城市选择"/>
+		            <input id="value1" type="hidden" value="12,124,3269"/>
+		</div>
+		<div class="mui-input-row">
+				<label>住宅地址的详细地址<span class="mui-input-danger">*</span></label>
+				 <input type="text" id="faAddress1" maxlength="50" class="mui-input-clear" placeholder="详细地址">
+		</div>
+		<div class="mui-input-row mui-select">
+		<label>住宅性质<span class="mui-input-danger">*</span></label>
+		             <select id="faNature">
+		                <option value=""></option>
+                        <option value="A">经济适用住房</option>
+                        <option value="B">廉租房</option>
+                        <option value="C">房改房</option>
+                        <option value="D">安居房</option>
+                        <option value="E">集资房</option>
+                        <option value="F">商品房</option>
+                        <option value="G">限价房</option>
+                        <option value="H">别墅</option>
+                        <option value="I">商铺</option>
+                        <option value="Z">其他</option>
+                    </select>
+		</div>
+		<div class="mui-input-row">
+				<label>现住宅居住年限(年)<span class="mui-input-danger">*</span></label>
+				 <input type="number" id="faGohouse" class="mui-input-clear" oninput="if(value.length>6)value=value.slice(0,6)"placeholder="请输入居住年限">
+		</div>
+		<div class="mui-input-row">
+				<label>现住宅电话号码<span class="mui-input-danger">*</span></label>
+				 <input type="text" id="faPhone" maxlength="15" class="mui-input-clear" placeholder="住宅电话">
+		</div>
+		<div class="mui-input-row">
+				<label>邮政编码</label>
+				 <input type="number" id="faPostalcode" maxlength="6" oninput="if(value.length>6)value=value.slice(0,6)" class="mui-input-clear" placeholder="邮政编码">
+		</div>
+		<div class="mui-input-row mui-select">
+		<label>婚姻状况<span class="mui-input-danger">*</span></label>
+		             <select id="apMarriage">
+		                <option value=""></option>
+                        <option value="C">已婚有子女</option>
+                        <option value="M">已婚无子女</option>
+                        <option value="S">未婚</option>
+                        <option value="W">丧偶</option>
+                        <option value="D">离异</option>
+                        <option value="O">其他</option>
+                    </select>
+		</div>
+		<div class="mui-input-row">
+				<label>单位名称<span class="mui-input-danger">*</span></label>
+				 <input type="text" id="coName" maxlength="15" class="mui-input-clear" placeholder="单位名称">
+		</div>
+		<div class="mui-input-row">
+				<label>部门<span class="mui-input-danger">*</span></label>
+				 <input type="text" id="coDepartment" maxlength="10" class="mui-input-clear" placeholder="所在单位部门">
+		</div>
+		<div class="mui-input-row mui-select">
+		<label>职务<span class="mui-input-danger">*</span></label>
+		             <select id="coJob">
+		                <option value=""></option>
+                        <option value="A">高层管理人员</option>
+                        <option value="B">中层管理人员</option>
+                        <option value="C">基层管理人员</option>
+                        <option value="D">一般员工</option>
+                        <option value="E">内勤</option>
+                        <option value="F">后勤</option>
+                        <option value="G">工人</option>
+                        <option value="H">销售/中介/业务代表</option>
+                        <option value="I">营业员/服务员</option>
+                        <option value="J">正部级</option>
+                        <option value="K">副部级</option>
+                        <option value="L">正厅级</option>
+                        <option value="M">副厅级</option>         
+                        <option value="N">正处级</option>
+                        <option value="O">副处级</option>
+                        <option value="P">正科级</option>
+                        <option value="Q">副科级</option>    
+                        <option value="R">正股级</option>
+                        <option value="S">副股级</option>
+                        <option value="Z">其他</option>                                                           
+                    </select>
+		</div>
+		<div class="mui-input-row">
+				<label>工作年限(年)<span class="mui-input-danger">*</span></label>
+				 <input type="number" id="coBeginY" maxlength="4" oninput="if(value.length>4)value=value.slice(0,4)" class="mui-input-clear" placeholder="工作年限">
+		</div>
+		
+			<div class="mui-input-row mui-input-submit">
+				<button type="button" class="mui-btn  mui-btn-hf mui-btn-block" id="nextStepTwo">下一步</button>
+			</div>
+	     </form>
+	     
+	  </div>
+	</div>

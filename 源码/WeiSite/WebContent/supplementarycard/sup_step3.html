@@ -1,0 +1,49 @@
+<header class="mui-bar mui-bar-nav">
+    <a
+            class="mui-action-back mui-icon  icon-duduyinleappicon0501 mui-pull-left  "
+            href="javascript:void(0)"></a> <a
+        class="mui-icon icon-daohangliebiao mui-pull-right mui-hidden "></a>
+
+    <h1 class="mui-title">申请附属卡</h1>
+</header>
+<div class="mui-content" id="sup_step3">
+    <div class="scroller">
+        <form class="mui-form-hf">
+
+            <div class="yy-bj-ul yy-border-shaow" style="height: 290px;" >
+                <div>
+                    <div class=" IDAuth-wheat-firstline">请上传身份证正反面照片</div>
+                </div>
+                <div class="zj-form-comp yy-margin-none width-full">
+                    <div class="IDAuth-image-item space wxx-ID4Edit_4 add-card yy-width-bg" style="position: relative;">
+                        <div id="idcardfrontares" style="position: absolute; left: 0;right:0; top:0; bottom: 0; width: 100%; height: 100%;"></div>
+                        <input type="file"  id="input_front" data-component="IdcardFront" data-name="idcardfront" accept="image/jpeg,image/png" style="height: 100px; width: 100%; display: block;">
+                    </div>
+                    <div class="IDAuth-image-item space wxx-ID4Edit_4 add-card yy-left-width-bg" style="position: relative;">
+                        <div  id="idcardbackares" style="position: absolute; left: 0;right:0; top:0; bottom: 0; width: 100%; height: 100%;"></div>
+                        <input type="file" id="input_back" data-component="IdcardBack" data-name="idcardback" accept="image/jpeg,image/png">
+                    </div>
+                    <div class="IDAuth-image-item space wxx-ID4Edit_6 yy-width-bg" style="text-align: center;">
+
+                    </div>
+                    <div class="IDAuth-image-item space wxx-ID4Edit_7 yy-left-width-bg" style="text-align: center;">
+
+                    </div>
+                    <div style="padding-top: 10px" class="yy-font-center-float-left margin-b-8 ">正面照示例</div>
+                    <div style="padding-top: 10px"  class="yy-font-center-float-right margin-b-8 ">反面照示例</div>
+                </div>
+            </div>
+
+
+            <div class="mui-input-row mui-input-submit">
+                <div class="mui-btn  mui-btn-hf mui-btn-block" id = "nextstep">提交</d>
+            </div>
+            <div style="position:fixed;left: -99999; right: -99999; display: none;">
+                <img id="img_front">
+                <canvas id="canvas_front"></canvas>
+                <img id="img_back">
+                <canvas id="canvas_back"></canvas>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,203 @@
+<header class="mui-bar mui-bar-nav">
+	<a
+		class="mui-action-back mui-icon  icon-duduyinleappicon0501 mui-pull-left  " id="listback" href="javascript:void(0)"></a>
+
+	<a class="mui-icon icon-daohangliebiao mui-pull-right mui-hidden "></a>
+
+	<h1 class="mui-title">我要办卡</h1>
+</header>
+<div class="mui-content" id="plus_step1">
+	<div class="scroller">
+	  <div class="nowprocess">
+	     <div class="pro-row-table">
+	     <div class="pro-row-table-cell newbox1">
+	     	 <div class="tactful1">
+	     	 <span class="pro-row-table-cell-word">1</span>
+	         </div>
+	         <div class="line1">
+	         </div>
+	         	         <span class="pro-row-table-cell-title">初步审核</span>
+	     </div>	     
+	     <div class="pro-row-table-cell newbox2">
+	     	 <div class="tactful1">
+	     	 	     	 <span class="pro-row-table-cell-word">2</span>
+	         </div>
+	         <div class="line1">
+	         </div>
+	         <span class="pro-row-table-cell-title">基本信息</span>
+	     </div>
+	     	  <div class="pro-row-table-cell newbox3">
+	     	 <div class="tactful1">
+	     	 	     	 <span class="pro-row-table-cell-word">3</span>
+	         </div>
+	         <div class="line1">
+	         </div>
+	         <span class="pro-row-table-cell-title">完善信息</span>
+	     </div> 
+	     <div class="pro-row-table-cell newbox4" style="min-width:64px;">
+	     	 <div class="tactful2">
+	     	 	     	 <span class="pro-row-table-cell-word">4</span>
+	         </div>  
+	         <span class="pro-row-table-cell-title">提交完成</span>
+	     </div>
+	     </div>	
+	     </div>
+	      <div class="mui-divider-hf"></div>
+	      <form class="mui-form-hf mui-form-list-hf" id="listform">
+            <div class="mui-input-row mui-row-title">
+                  <i class="mui-icon icon-wodedingdan" style="font-size:30px"></i><span style="position:absolute;left:50px">个人信息</span>
+            </div> 
+             <div class="mui-input-row">
+				<label class="mui-input-label-width">姓名</label> <div id="apName" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">证件号码</label> <div  id="apIdNbr" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row" style="border:0">
+				<label class="mui-input-label-width">本人手机号</label> <div id="apMobile" class="mui-input-color mui-row-div"></div>
+			</div>
+			</form>
+			     <div class="mui-divider-hf"></div>	
+			     
+			<form class="mui-form-hf mui-form-list-hf">
+                 <div class="mui-input-row mui-row-title">
+                        <i class="mui-icon icon-wodedingdan" style="font-size:30px"></i><span style="position:absolute;left:50px"> 基本信息</span>
+                  <div class="mui-btn mui-btn-link" style="position:absolute;right:10px;top:50%;margin-top:-15px" id="baseinfobtn">修改</div>
+                 </div>   
+            <div class="mui-input-row">
+				<label class="mui-input-label-width">姓名拼音</label> <div id="apSpell" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">性别</label> <div  id="apSex" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">邮箱</label> <div  id="apEmail"class="mui-input-color mui-row-div"></div>
+			</div>
+			<% var ter= bool==true?"block":"none"%>
+			<div class="mui-input-row" style="display:<%=ter%>">
+				<label class="mui-input-label-width">特邀活动码</label> <div  id="actiCode" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row" style="border:0">
+				<label class="mui-input-label-width">推荐码</label> <div  id="recomId" class="mui-input-color mui-row-div"></div>
+			</div>
+
+			</form>
+			           <div class="mui-divider-hf"></div>	
+			<form class="mui-form-hf mui-form-list-hf">
+			<div class="mui-input-row mui-row-title">
+                  <i class="mui-icon icon-wodedingdan" style="font-size:30px"></i><span style="position:absolute;left:50px">住宅单位信息一</span>
+                  <div class="mui-btn mui-btn-link" style="position:absolute;right:10px;top:50%;margin-top:-15px" id="home1btn">修改</div>
+            </div>  
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">住宅地址</label> <div id="faAddress" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">住宅详细地址</label> <div  id="faAddress1" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">住宅性质</label> <div  id="faNature" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">现住宅居住时间(年)</label> <div  id="faGohouse" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">住宅电话</label> <div  id="faPhone" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">住宅邮政编码</label> <div  id="faPostalcode" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">婚姻状态</label> <div id="apMarriage" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">公司姓名</label> <div  id="coName" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">部门</label> <div id="coDepartment" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">职务</label> <div id="coJob" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row" style="border:0">
+				<label class="mui-input-label-width">工作年限(年)</label> <div  id="coyear" class="mui-input-color mui-row-div"></div>
+			</div>
+           </form>         
+                 <div class="mui-divider-hf"></div>
+            <form class="mui-form-hf mui-form-list-hf">
+            <div class="mui-input-row mui-row-title">
+                  <i class="mui-icon icon-wodedingdan" style="font-size:30px"></i><span style="position:absolute;left:50px">住宅单位信息二</span>
+                  <div class="mui-btn mui-btn-link" style="position:absolute;right:10px;top:50%;margin-top:-15px" id="home2btn">修改</div>
+            </div> 
+            <div class="mui-input-row">
+				<label class="mui-input-label-width">单位地址</label> <div  id="coAddress" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">单位详细地址</label> <div  id="coAddress1" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">单位电话</label> <div  id="coPhone" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">单位邮编</label> <div  id="coPostalcode" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">行业类别</label> <div  id="coNatureClass" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row" style="border:0">
+				<label class="mui-input-label-width">个人年收入</label> <div  id="coSalary" class="mui-input-color mui-row-div"></div>
+			</div>
+           </form>        
+            <div class="mui-divider-hf mui-form-list-hf"></div>
+            <form class="mui-form-hf">
+            <div class="mui-input-row mui-row-title">
+                  <i class="mui-icon icon-wodedingdan" style="font-size:30px"></i><span style="position:absolute;left:50px">其他信息</span>
+                  <div class="mui-btn mui-btn-link" style="position:absolute;right:10px;top:50%;margin-top:-15px" id="perfectedbtn">修改</div>
+            </div>
+            <div class="mui-input-row">
+				<label class="mui-input-label-width">教育程度</label> <div  id="apEducation" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">是否拥有汽车</label> <div  id="hasCar" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">车牌号</label> <div  id="carid" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">亲属姓名</label> <div  id="kiName" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">亲属关系</label> <div  id="kiRelation" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">亲属手机</label> <div id="kiFaMobile" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">联系人姓名</label> <div  id="boName" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">联系人关系</label> <div  id="boRelation" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">联系人手机</label> <div  id="boFaMobile" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">卡片寄送地址</label> <div  id="baCardRec" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">是否关联借记卡</label> <div  id="debitcard" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">借记卡卡号</label> <div  id="cardId" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">还款方式</label> <div  id="cardAge" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row">
+				<label class="mui-input-label-width">合作方会员号</label> <div  id="partner" class="mui-input-color mui-row-div"></div>
+			</div>
+			<div class="mui-input-row mui-input-submit">
+				<button type="button" class="mui-btn  mui-btn-hf mui-btn-block" id="savestep">确认并提交</button>
+			</div>
+	     </form>     
+	  </div>
+	</div>

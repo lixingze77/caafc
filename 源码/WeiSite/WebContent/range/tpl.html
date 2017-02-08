@@ -1,0 +1,49 @@
+<div id="tpl_range" class="mui-page">
+    <style>
+        h5 {
+            padding-top: 15px;
+        }
+
+        .field-contain label {
+            width: auto;
+            padding-right: 0;
+        }
+
+        .field-contain input[type='text'] {
+            width: 40px;
+            height: 30px;
+            padding: 5px 0;
+            float: none;
+            text-align: center;
+        }</style>
+    <div class="scroller">
+
+        <div class="mui-content-padded">
+            <h5 style='margin-top: 35px;'>label+输入框+滑块：</h5>
+            <div class="mui-input-row mui-input-range field-contain">
+                <div style="float: left">
+                    <label>滑块：</label> <input type="text" id='field-range-input'
+                                              value='60'>
+                </div>
+                <div style="margin-left: 121px;">
+                    <input type="range" id='field-range' value="60" min="0" max="100"/>
+                </div>
+            </div>
+            <h5>
+                label+滑块：<span id='inline-range-val'>20</span>
+            </h5>
+            <div class="mui-input-row mui-input-range">
+                <label>滑块：</label> <input type="range" id='inline-range' value="1"
+                                          min="0" max="5">
+            </div>
+
+            <h5>
+                整行滑块：<span id='block-range-val'>50</span>
+            </h5>
+            <div class="mui-input-row mui-input-range">
+                <input type="range" id='block-range' value="50" min="0" max="100">
+            </div>
+
+        </div>
+    </div>
+</div>

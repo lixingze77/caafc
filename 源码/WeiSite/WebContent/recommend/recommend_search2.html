@@ -1,0 +1,53 @@
+<header class="mui-bar mui-bar-nav">
+	<a
+		class="mui-action-back mui-icon  icon-duduyinleappicon0501 mui-pull-left  "
+		href="javascript:void(0)" id="search_back"></a> <a
+		class="mui-icon icon-daohangliebiao mui-pull-right mui-hidden "></a>
+
+	<h1 class="mui-title">推荐查询</h1>
+</header>
+
+<div class="mui-content" id="recommend_search">
+	<div class="scroller">
+		<form class="mui-form-hf">
+
+			<div class="list_title">推荐明细查询：</div>
+			<div class="mui-input-row-divider">本月</div>
+			<%if(list.length>0){ for(var i=0;i<list.length;i++){
+			var time=list[i].createTime.split(".")[0];
+			%>
+			<div class="table" style="padding:10px">
+			<div class="rows" style="font-size: 14px;">
+			<div style="display: table-cell;width: 65%;"><%=list[i].apName%> </div>
+			<div style="display: table-cell;width: 65%;font-size: 20px;color:red;text-align:right"><%=list[i].status%></div>
+			
+			</div>
+			<div class="rows" >
+			
+			<div style="display: table-cell;width: 65%;font-size: 12px;color:#999"> 身份证号:<%=list[i].apIdNbr%></div>
+			</div>
+				<div class="rows" >
+			
+			<div style="display: table-cell;width: 65%;font-size: 12px;color:#999"> 推荐时间:<%=time%></div>
+			</div>
+			</div>
+			
+			<div style="border-bottom: 5px solid #EFEFEF;"></div>
+			
+			<% } }else{%>
+			<div style="font-size: 14px;text-align: center;padding: 5%; color: #666;">无推荐查询信息</div>
+			<%}%>
+
+			<div style="padding: 5px">
+				<div class="mui-input-row mui-row-marked">
+					<h5 style="font-weight: 800; color: #0075af;">提示语：</h5>
+					<span style=" border-bottom: 0; font-size: 12px; color: #9fa0a0;">
+						<p>以上数据信息仅供参考，不作为最终奖励发放的依据</p></span>
+				</div>
+
+			</div>
+	</div>
+	</form>
+</div>
+
+

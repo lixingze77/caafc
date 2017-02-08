@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<Http>
+		<appId>chatimclient</appId> 
+		<appSecret>1A2B3E4F0586</appSecret> 
+		<proxyIp></proxyIp> 
+		<proxyPort></proxyPort> 
+		<reSendNum>1</reSendNum>
+		<conTimeOutMs>50000</conTimeOutMs>
+	</Http>
+	<Chat>
+		<ReadTimeOutMs>30000</ReadTimeOutMs><!-- 客户端轮询超时时间 -->
+		<SessionTimeOutMs>300000</SessionTimeOutMs><!-- 会话活跃超时时间 -->
+	</Chat>
+
+	<Openfire>		
+		<server>172.16.9.44</server>
+		<!--<server>172.16.9.193</server>-->
+		<port>9090</port>
+		<pluginurl>/plugins/onlinetalk/onlineservice?channelType=</pluginurl>
+
+		<className>00</className>
+		<smack>@im.bank.hsbank.com/Smack</smack>
+	</Openfire>
+	<WeikePaperGetUrl>http://127.0.0.1:8080/WeikeManager/infgetPaper/getPaperMag?postType=1</WeikePaperGetUrl>
+	<WeikePaperSetUrl>http://127.0.0.1:8080/WeikeManager/infsetPaper/setPaperMag?postType=1</WeikePaperSetUrl>
+	<WebServiceUrl></WebServiceUrl>
+	<SessionTimeOut>60</SessionTimeOut><!-- 分钟 -->	S
+	<HFAdd>http://10.3.108.156:8080/AASAPP/api/apply/ele/add</HFAdd>
+	<HFPolice>http://10.3.108.156:8080/AASAPP/extapi/netpolice</HFPolice>
+	<HFCardProduct>http://10.3.108.156:8080/AOMS/api/product</HFCardProduct>
+	<HFActivity>http://10.3.108.156:8080/AOMS/api/activity</HFActivity>
+	<HFCity>http://10.3.108.156:8080/AOMS/api/city</HFCity>
+	<HFField>http://10.3.108.156:8080/AOMS/api/field</HFField>
+ 	<HFRecom>http://10.3.108.156:8080/AASAPP/extapi/recom</HFRecom>
+ 	<HFGetEMS>http://10.3.108.156:8080/AASAPP/extapi/getEMS</HFGetEMS>
+ 	<HFGetICMS>http://10.3.108.156:8080/AASAPP/extapi/getICMS</HFGetICMS>
+  	<HFGetspeed>http://10.3.108.156:8080/AASAPP/extapi/getspeed</HFGetspeed>
+
+	<System>
+		<deskey>123456789000000000000000</deskey><!-- 网银加密密钥 -->
+		<urlauto>http://192.68.70.71:8000/dev/ask.action</urlauto>
+		<urlupload>http://172.16.9.83:8080/fileserver/upload</urlupload>
+		<urldownload>http://172.16.9.83:8080/fileserver/Download</urldownload>>
+ 
+	</System>
+	
+</root>

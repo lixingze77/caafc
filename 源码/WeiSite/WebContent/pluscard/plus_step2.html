@@ -1,0 +1,37 @@
+<header class="mui-bar mui-bar-nav">
+	<a
+		class="mui-action-back mui-icon  icon-duduyinleappicon0501 mui-pull-left  "></a>
+
+	<a class="mui-icon icon-daohangliebiao mui-pull-right mui-hidden "></a>
+
+	<h1 class="mui-title">加办卡</h1>
+</header>
+<div class="mui-content" id="plus_step2">
+	<div class="scroller">
+		<form class="mui-form-hf">
+			<div class="mui-input-row-divider"></div>
+			<div class="mui-input-row mui-select">
+				<label>递送地址<span class="mui-input-danger">*</span></label> <select
+					id="mailselect">
+					<option value=""></option> <% for(var i=0;i<=baCardRec.length;i++){
+					%> <% var item = baCardRec[i]; %> <% if(!item) continue %>
+
+					<option value="<%=item.id%>"><%=item.text%></option> <%}%>
+				</select>
+			</div>
+			<div class="mui-input-row">
+				<label>邮寄地址</label>
+				<textarea rows="" cols="" readonly="readonly" id="mail"></textarea>
+			</div>
+			<div class="mui-input-row mui-input-submit">
+				<div class="mui-btn  mui-btn-hf mui-btn-block" id="finishStep">提交</div>
+			</div>
+			<div class="mui-input-row mui-row-marked">
+				<h5>提示语：</h5>
+				如您的住宅或单位地址有变化，请先致电客服热线修改后再提交申请：（客服电话:95395）。
+			</div>
+
+		</form>
+
+	</div>
+</div>

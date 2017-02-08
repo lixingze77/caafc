@@ -1,0 +1,43 @@
+<header class="mui-bar mui-bar-nav">
+	<a
+		class="mui-action-back mui-icon  icon-duduyinleappicon0501 mui-pull-left  "
+		href="javascript:void(0)" id="search_back"></a> <a
+		class="mui-icon icon-daohangliebiao mui-pull-right mui-hidden "></a>
+
+	<h1 class="mui-title">办卡进度查询</h1>
+</header>
+
+<div class="mui-content" id="card_search">
+	<div class="scroller">
+		<form class="mui-form-hf">
+
+
+			<% if(list.length>0){ for(var i=0;i
+			<list.length ;i++){
+			var time=list[i].createTime; time=time.split(".")[0];
+			
+			%>
+			<div style="padding: 5px;height:60px;border-bottom: 5px solid #EFEFEF;">
+				<div
+					style="float: left;text-align: center;line-height: 55px; height: 50px; width: 30%; font-size: 14px; border-right: 1px dashed #ddd;"><%=
+					time%></div>
+				<div style="float: right;    padding-left: 5%; height: 60px; width: 70%">
+					<div style="height: 30px; color: red"><%=list[i].status%></div>
+					<div style="height: 30px; font-size: 12px"><%=list[i].apName%>
+						<%=list[i].apIdNbr%></div>
+				</div>
+
+
+
+			</div>
+			
+			<% } }else{%>
+
+			<div
+				style="padding: 10px; font-size: 14px; color: #666; text-align: center">没有办卡进度信息</div>
+			<%}%> 
+	</div>
+	</form>
+</div>
+
+
